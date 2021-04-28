@@ -1,0 +1,704 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ppts" msdata:UseCurrentLocale="true">
+			<xs:complexType>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="ppts">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Id" type="xs:int" minOccurs="0" />
+								<xs:element name="Name" type="xs:string" minOccurs="0" />
+								<xs:element name="Type" type="xs:string" minOccurs="0" />
+								<xs:element name="Stag" type="xs:string" minOccurs="0" />
+								<xs:element name="Etag" type="xs:string" minOccurs="0" />
+								<xs:element name="Source" type="xs:string" minOccurs="0" />
+								<xs:element name="ShortTag" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<ppts>
+		<Id>22</Id>
+		<Name>leftCategory</Name>
+		<Type>Category</Type>
+		<Stag>&lt;ul class="list-unstyled mb-0" class="leftCat"&gt;</Stag>
+		<Etag>&lt;/ul&gt;</Etag>
+		<Source>&lt;li class="list-inline-item"&gt;
+     &lt;a href="!catlink"&gt;!category&lt;/a&gt;
+ &lt;/li&gt;</Source>
+		<ShortTag>N.A</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>16</Id>
+		<Name>home-post</Name>
+		<Type>Post</Type>
+		<Stag>&lt;div id="homeposts" class="row"&gt;</Stag>
+		<Etag>&lt;/div&gt;</Etag>
+		<Source>&lt;div class="col-xl-6 col-lg-6 col-md-6"&gt;                
+                        &lt;div class="single-news mb-30"&gt;
+                            &lt;div class="news-img"&gt;
+                                &lt;a href="!postlink" title="!imagealt"&gt;&lt;img src="!imagepath" alt="!imagealt"&gt;&lt;/a&gt;
+                                &lt;div class="news-date text-center"&gt;
+                                    &lt;span&gt;!postdate&lt;/span&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="news-caption"&gt;
+                                &lt;ul class="david-info"&gt;
+                                    &lt;li&gt;Posted by: &lt;a href="!authprofile"&gt;!author&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                                &lt;h2&gt;&lt;a href="!postlink"&gt;!title&lt;/a&gt;&lt;/h2&gt;
+								&lt;p style="color:white;"&gt;!description&lt;/p&gt;
+                                &lt;a href="!postlink" class="d-btn"&gt;Read more&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+            &lt;/div&gt;</Source>
+		<ShortTag>N.A</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>14</Id>
+		<Name>Banner</Name>
+		<Type>Banner</Type>
+		<Stag />
+		<Etag />
+		<Source>        
+	&lt;div class="card my-4"&gt;
+&lt;div class="card-body"&gt;
+!Banner!
+&lt;/div&gt;
+&lt;/div&gt;
+		</Source>
+		<ShortTag>N.A</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>15</Id>
+		<Name>RecentPosts</Name>
+		<Type>RecentPost</Type>
+		<Stag />
+		<Etag />
+		<Source>    &lt;div class="mediarecent post_item"&gt;
+                                &lt;a href="!postlink"&gt;&lt;img class="imgrecentpost" src="!imagepath" alt="!title"&gt;&lt;/a&gt;
+                                &lt;div class="media-body"&gt;
+                                    &lt;a href="!postlink"&gt;
+                                        &lt;h3 style="font-size: 12pt;">!title&lt;/h3&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+				&lt;/div&gt;
+		</Source>
+		<ShortTag>N.A</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>3</Id>
+		<Name>Home Title</Name>
+		<Type>Shortcode</Type>
+		<Stag>!HomeTitle</Stag>
+		<Etag />
+		<Source>Add Home Title Here</Source>
+		<ShortTag>!HomeTitle</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>4</Id>
+		<Name>Meta Description</Name>
+		<Type>Shortcode</Type>
+		<Stag>!MetaDescription</Stag>
+		<Etag />
+		<Source>Add Meta Description Here</Source>
+		<ShortTag>!MetaDescription</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>5</Id>
+		<Name>Meta Keywords</Name>
+		<Type>Shortcode</Type>
+		<Stag>!MetaKeywords</Stag>
+		<Etag />
+		<Source>Add Meta Keywords Here</Source>
+		<ShortTag>!MetaKeywords</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>6</Id>
+		<Name>Site Name</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SiteName</Stag>
+		<Etag />
+		<Source>Site Name</Source>
+		<ShortTag>!SiteName</ShortTag>
+	</ppts>
+
+	<ppts> 
+		<Id>30</Id>
+		<Name>Contact Number</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SiteContactNo</Stag>
+		<Etag />
+		<Source>&lt;a href="tel:YOURCONTACTNUMBERHERE"&gt;YOURCONTACTNUMBERHERE&lt;/a&gt;</Source>
+		<ShortTag>!SiteContactNo</ShortTag>
+	</ppts> 
+
+	<ppts>
+		<Id>31</Id>
+		<Name>Contact Email</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SiteContactEmail</Stag>
+		<Etag />
+		<Source>Add your contact email address here</Source>
+		<ShortTag>!SiteContactEmail</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>72</Id>
+		<Name>Address Location</Name>
+		<Type>Shortcode</Type>
+		<Stag>!AddressLocation</Stag>
+		<Etag />
+		<Source>Add your Address or Location, City Country etc</Source>
+		<ShortTag>!AddressLocation</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>32</Id>
+		<Name>Business Opening Hours</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SiteOpenHours</Stag>
+		<Etag />
+		<Source>Add your business opening hours here</Source>
+		<ShortTag>!SiteOpenHours</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>33</Id>
+		<Name>Twitter URL</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SiteSocialTwitter</Stag>
+		<Etag />
+		<Source>&lt;a href="YOURTWITTERURLHERE" target="_blank" rel="nofollow"&gt;&lt;i class="fab fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;</Source>
+		<ShortTag>!SiteSocialTwitter</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>34</Id>
+		<Name>Facebook URL</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SiteSocialFacebook</Stag>
+		<Etag />
+		<Source>&lt;a href="YOURFACEBOOKURLHERE" target="_blank" rel="nofollow"&gt;&lt;i class="fab fa-facebook-f"&gt;&lt;/i&gt;&lt;/a&gt;</Source>
+		<ShortTag>!SiteSocialFacebook</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>35</Id>
+		<Name>LinkedIn URL</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SiteSocialLinkedIn</Stag>
+		<Etag />
+		<Source>&lt;a href="YOURLINKEDINURLHERE" target="_blank" rel="nofollow"&gt;&lt;i class="fab fa-linkedin-in"&gt;&lt;/i&gt;&lt;/a&gt;</Source>
+		<ShortTag>!SiteSocialLinkedIn</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>36</Id>
+		<Name>GMB URL</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SiteSocialGMB</Stag>
+		<Etag />
+		<Source>&lt;a href="YOURGMBURLHERE" target="_blank" rel="nofollow"&gt;&lt;i class="fab fa-google"&gt;&lt;/i&gt;&lt;/a&gt;</Source>
+		<ShortTag>!SiteSocialGMB</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>37</Id>
+		<Name>Full Logo URL For Page Header</Name>
+		<Type>Shortcode</Type>
+		<Stag>!LogoUrl</Stag>
+		<Etag />
+		<Source>&lt;img src="YOURLOGOURLHERE" alt="YOURALTTAGHERE"&gt;&lt;/a&gt;</Source>
+		<ShortTag>!LogoUrl</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>38</Id>
+		<Name>Small Logo URL For Footer and Mobile</Name>
+		<Type>Shortcode</Type>
+		<Stag>!smallLogoUrl</Stag>
+		<Etag />
+		<Source>&lt;img src="YOURSMALLLOGOURLHERE" alt="YOURALTTAGHERE"&gt;&lt;/a&gt;</Source>
+		<ShortTag>!smallLogoUrl</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>39</Id>
+		<Name>Hero Slide 1 Background Image Url</Name>
+		<Type>Shortcode</Type>
+		<Stag>!HeroSlide1Url</Stag>
+		<Etag />
+		<Source>&lt;div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="YOURHEROSLIDE1URLHERE"&gt;</Source>
+		<ShortTag>!HeroSlide1Url</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>40</Id>
+		<Name>Hero 1 Top Tagline</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Hero1TopTagline</Stag>
+		<Etag />
+		<Source>Add your 1st Hero Top Tagline here</Source>
+		<ShortTag>!Hero1TopTagline</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>41</Id>
+		<Name>Hero 1 Main Tagline</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Hero1MainTagline</Stag>
+		<Etag />
+		<Source>Add your 1st Hero Main Tagline here</Source>
+		<ShortTag>!Hero1MainTagline</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>42</Id>
+		<Name>Hero 1 Second Main Tagline</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Hero1SecondaryTagline</Stag>
+		<Etag />
+		<Source>Add your 1st Hero Secondary Tagline here</Source>
+		<ShortTag>!Hero1SecondaryTagline</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>44</Id>
+		<Name>Hero 1 Money URL And Tag Line</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Hero1MoneyUrl</Stag>
+		<Etag />
+		<Source>&lt;a href="YOURMONEYURLHERE" title="YOURTITLETAGHERE" target="_blank"&gt;YOURMONEYTAGLINEHERE&lt;/a&gt;</Source>
+		<ShortTag>!Hero1MoneyUrl</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>49</Id>
+		<Name>Stealth Slide 2 Background Image Url</Name>
+		<Type>Shortcode</Type>
+		<Stag>!HeroSlide2Url</Stag>
+		<Etag />
+		<Source>&lt;div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="YOURHEROSLIDE2URLHERE"&gt;</Source>
+		<ShortTag>!HeroSlide2Url</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>50</Id>
+		<Name>Stealth Hero 2 Top Tagline</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Hero2TopTagline</Stag>
+		<Etag />
+		<Source>Add your 2nd Hero Top Tagline here</Source>
+		<ShortTag>!Hero2TopTagline</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>51</Id>
+		<Name>Stealth Hero 2 Main Tagline</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Hero2MainTagline</Stag>
+		<Etag />
+		<Source>Add your 2nd Hero Main Tagline here</Source>
+		<ShortTag>!Hero2MainTagline</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>52</Id>
+		<Name>Stealth Hero 2 Second Main Tagline</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Hero2SecondaryTagline</Stag>
+		<Etag />
+		<Source>Add your 2nd Hero Secondary Tagline here</Source>
+		<ShortTag>!Hero2SecondaryTagline</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>54</Id>
+		<Name>Stealth Hero 2 Money URL And Tag Line</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Hero2MoneyUrl</Stag>
+		<Etag />
+		<Source>&lt;a href="YOURSTEALTHMONEYURLHERE" title="YOURTITLETAGHERE" target="_blank"&gt;YOURSTEALTHMONEYTAGLINEHERE&lt;/a&gt;</Source>
+		<ShortTag>!Hero2MoneyUrl</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>61</Id>
+		<Name>Sub Pages Hero Slide Image URL</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SubHeroBkgUrl</Stag>
+		<Etag />
+		<Source>&lt;div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="YOURSUBPAGESHEREBACKGROUNDURLHERE"&gt;</Source>
+		<ShortTag>!SubHeroBkgUrl</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>62</Id>
+		<Name>Footer Short About Us</Name>
+		<Type>Shortcode</Type>
+		<Stag>!ShortAboutUs</Stag>
+		<Etag />
+		<Source>Short About Us Intro For Site Footer (1 or 2 short paragraphs)</Source>
+		<ShortTag>!ShortAboutUs</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>63</Id>
+		<Name>Home Page Full About Us</Name>
+		<Type>Shortcode</Type>
+		<Stag>!FullAboutUs</Stag>
+		<Etag />
+		<Source>Home Page Full About Us Info (1 or 2 short paragraphs)</Source>
+		<ShortTag>!FullAboutUs</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>64</Id>
+		<Name>About Us Page Full Text</Name>
+		<Type>Shortcode</Type>
+		<Stag>!DbouUts</Stag>
+		<Etag />
+		<Source>About Us Page Full Info (4 to 10 paragraphs)</Source>
+		<ShortTag>!DbouUts</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>65</Id>
+		<Name>In Business Since Date</Name>
+		<Type>Shortcode</Type>
+		<Stag>!SinceDateYear</Stag>
+		<Etag />
+		<Source>Add Your In Business Since Date (Year)</Source>
+		<ShortTag>!SinceDateYear</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>66</Id>
+		<Name>About Us Image Url</Name>
+		<Type>Shortcode</Type>
+		<Stag>!AboutUsImage</Stag>
+		<Etag />
+		<Source>&lt;img src="YOURABOUTUSIMAGEURLHERE" alt="YOURALTTAGHERE"&gt;</Source>
+		<ShortTag>!AboutUsImage</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>67</Id>
+		<Name>Testimonial Txt One</Name>
+		<Type>Shortcode</Type>
+		<Stag>!TesMTxtOne</Stag>
+		<Etag />
+		<Source>Add Your Testimonial One Text Here</Source>
+		<ShortTag>!TesMTxtOne</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>68</Id>
+		<Name>Testimonial Person One Name</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Ttttjersne</Stag>
+		<Etag />
+		<Source>Add Your Testimonial Person One Name Here</Source>
+		<ShortTag>!Ttttjersne</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>69</Id>
+		<Name>Testimonial Person One Occupation</Name>
+		<Type>Shortcode</Type>
+		<Stag>!TPesrosob</Stag>
+		<Etag />
+		<Source>Add Your Testimonial Person One Occupation - Company Name Here</Source>
+		<ShortTag>!TPesrosob</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>70</Id>
+		<Name>Testimonial Txt Two</Name>
+		<Type>Shortcode</Type>
+		<Stag>!TestMTxtTwo</Stag>
+		<Etag />
+		<Source>Add Your Testimonial Two Text Here</Source>
+		<ShortTag>!TestMTxtTwo</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>71</Id>
+		<Name>Testimonial Person Two Name</Name>
+		<Type>Shortcode</Type>
+		<Stag>!Temersotoo</Stag>
+		<Etag />
+		<Source>Add Your Testimonial Person Two Name Here</Source>
+		<ShortTag>!Temersotoo</ShortTag>
+	</ppts>
+	
+	<ppts>
+		<Id>73</Id>
+		<Name>Testimonial Person Two Occupation</Name>
+		<Type>Shortcode</Type>
+		<Stag>!TstGrsoncob</Stag>
+		<Etag />
+		<Source>Add Your Testimonial Person Two Occupation - Company Name Here</Source>
+		<ShortTag>!TstGrsoncob</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>13</Id>
+		<Name>Footer Text Below Copyright</Name>
+		<Type>Shortcode</Type>
+		<Stag>!FooterText</Stag>
+		<Etag />
+		<Source>Add your footer text here (optional)</Source>
+		<ShortTag>!FooterText</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>17</Id>
+		<Name>Post Editor</Name>
+		<Type>PostEditor</Type>
+		<Stag>&lt;!--postcontent--&gt;</Stag>
+		<Etag>&lt;!--endpostcontent--&gt;</Etag>
+		<Source />
+		<ShortTag>&lt;!--postcontent --&gt;</ShortTag>
+	</ppts>
+
+	<ppts>
+		<Id>20</Id>
+		<Name>Sitemap</Name>
+		<Type>Sitemap</Type>
+		<Stag>&lt;!--sitemap--&gt;</Stag>
+		<Etag>&lt;!--endsitemap--&gt;</Etag>
+		<Source>
+	&lt;dl class="row">
+    &lt;dt class="col-sm-4"&gt;&lt;small&gt;&lt;a href="{!PostLink}" title="{!PostTitle}"&gt;{!PostTitle}&lt;/a&gt;&lt;/small&gt;&lt;/dt&gt;
+    &lt;dd class="col-sm-8"&gt;&lt;small&gt;{!description}&lt;/small&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+		</Source>
+		<ShortTag>&lt;!--sitemap --&gt;</ShortTag>
+	</ppts>
+	
+	<ppts>
+    <Id>118</Id>
+    <Name>Custom Search Code Or Banner Code For Side Bars</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Custom</Stag>
+    <Etag />
+    <Source>Add Custom Search Box Code Or Banner Code Here</Source>
+    <ShortTag>!Custom</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>120</Id>
+    <Name>Custom Search Results Code For Search Page Only</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Whatsupre</Stag>
+    <Etag />
+    <Source>Add Custom Search Results Code For Search Page</Source>
+    <ShortTag>!Whatsupre</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>122</Id>
+    <Name>Social Sharing Widget Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Social</Stag>
+    <Etag />
+    <Source>Add Social Share Button Code Here (delete if not required)</Source>
+    <ShortTag>!Social</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>123</Id>
+    <Name>Sticky Widget Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Widget</Stag>
+    <Etag />
+    <Source>Add Sticky Widget Banner Code Here Or Image Code (delete if not required)</Source>
+    <ShortTag>!Widget</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>124</Id>
+    <Name>Banner Or Code Below Each Post</Name>
+    <Type>Shortcode</Type>
+    <Stag>!PromoBanner</Stag>
+    <Etag />
+    <Source>Add Banner or Code Here (best for responisive 468x60 or 728x90 delete if not required)</Source>
+    <ShortTag>!PromoBanner</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>125</Id>
+    <Name>Contact Form Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!ConForm</Stag>
+    <Etag />
+    <Source>Add Your Contact Form Code Here (delete if not needed)</Source>
+    <ShortTag>!ConForm</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>126</Id>
+    <Name>Adsense Code</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Adsense</Stag>
+    <Etag />
+    <Source>Add Adsense Code Or Other Header Scripts Here (delete if not needed)</Source>
+    <ShortTag>!Adsense</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>127</Id>
+    <Name>Analytics Code (delete if not needed)</Name>
+    <Type>Shortcode</Type>
+    <Stag>!Analytics</Stag>
+    <Etag />
+    <Source>Add Analytics Code Or 3rd Party Tracking Coce Here (delete if not needed)</Source>
+    <ShortTag>!Analytics</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>128</Id>
+    <Name>FAQ Heading</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQHead</Stag>
+    <Etag />
+    <Source>Add FAQ Heading Here</Source>
+    <ShortTag>!FAQHead</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>129</Id>
+    <Name>FAQ Question 1</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQQ1</Stag>
+    <Etag />
+    <Source>Add 1st Question Here</Source>
+    <ShortTag>!FAQQ1</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>140</Id>
+    <Name>FAQ Answer 1</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQA1</Stag>
+    <Etag />
+    <Source>Add 1st Answer Here</Source>
+    <ShortTag>!FAQA1</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>141</Id>
+    <Name>FAQ Question 2</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQQ2</Stag>
+    <Etag />
+    <Source>Add 2nd Question Here</Source>
+    <ShortTag>!FAQQ2</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>142</Id>
+    <Name>FAQ Answer 2</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQA2</Stag>
+    <Etag />
+    <Source>Add 2nd Answer Here</Source>
+    <ShortTag>!FAQA2</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>143</Id>
+    <Name>FAQ Question 3</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQQ3</Stag>
+    <Etag />
+    <Source>Add 3rd Question Here</Source>
+    <ShortTag>!FAQQ3</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>144</Id>
+    <Name>FAQ Answer 3</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FAQA3</Stag>
+    <Etag />
+    <Source>Add 3rd Answer Here</Source>
+    <ShortTag>!FAQA3</ShortTag>
+  </ppts>	
+  
+  <ppts>
+    <Id>145</Id>
+    <Name>Affiliate Disclaimer</Name>
+    <Type>Shortcode</Type>
+    <Stag>!affdisclaimer</Stag>
+    <Etag />
+    <Source>Your Affiliate Disclaimer Here (Delete this if not needed)</Source>
+    <ShortTag>!affdisclaimer</ShortTag>
+  </ppts>
+
+  <ppts>
+		<Id>200</Id>
+		<Name>Site Main Colours</Name>
+		<Type>Shortcode</Type>
+		<Stag>!HeroTxtColor</Stag>
+		<Etag />
+		<Source>&lt;style&gt;
+.slider-area .hero__caption h1 {
+color: YOURMAINHEXCOLOURCODEHERE;
+}
+.slider-area .hero__caption .stock-text h2:nth-child(2) {
+color: YOURMAINHEXCOLOURCODEHERE;
+}
+#scrollUp {
+background: YOURMAINHEXCOLOURCODEHERE;
+}
+.support-company-area .support-wrapper .right-content .support-img-cap {
+background: YOURMAINHEXCOLOURCODEHERE;
+}
+.slider-area .hero__caption .hero-text1 span::before, .slider-area .hero__caption .hero-text1 a::before, .slider-area .hero__caption .hero-text2 span::before, .slider-area .hero__caption .hero-text2 a::before {
+background: YOURMAINHEXCOLOURCODEHERE;
+}
+.latest-news-area .single-news .news-img .news-date {
+background: YOURMAINHEXCOLOURCODEHERE;
+}
+.btn {
+background: YOURMAINHEXCOLOURCODEHERE;
+}
+.latest-news-area .single-news {
+    background: YOURMAINHEXCOLOURCODEHERE;
+}
+b, sup, sub, u, del {
+    color: YOURMAINHEXCOLOURCODEHERE;
+}
+&lt;/style&gt;</Source>
+		<ShortTag>!HeroTxtColor</ShortTag>
+	</ppts>
+	
+			<ppts>
+		<Id>201</Id>
+		<Name>Site Button Hover Colour</Name>
+		<Type>Shortcode</Type>
+		<Stag>!AccentColor</Stag>
+		<Etag />
+		<Source>&lt;style&gt;
+.btn::before {
+    background: YOURBUTTONACCENTHEXCOLOURCODEHERE;
+}
+			&lt;/style&gt;</Source>
+		<ShortTag>!AccentColor</ShortTag>
+	</ppts>
+	
+</NewDataSet>
